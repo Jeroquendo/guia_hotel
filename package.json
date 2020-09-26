@@ -1,0 +1,23 @@
+{
+  "name": "guia_hotel",
+  "version": "1.0.0",
+  "description": "Primer proyecto NodeJS",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeroquendo/guia_hotel.git"
+  },
+  "author": "Juan Rodas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeroquendo/guia_hotel/issues"
+  },
+  "homepage": "https://github.com/Jeroquendo/guia_hotel#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
