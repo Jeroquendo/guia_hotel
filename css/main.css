@@ -1,0 +1,25 @@
+.jumbotron{
+    background-color: antiquewhite;
+    color: black;
+}
+.button2{
+    background-color: gray;
+    color: green;
+}
+
+footer{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.card-hotel{
+    flex: 1 150px;
+    padding: 10px;
+}
+
+.btn-reserva{
+    justify-content: space-between;
+    width: 100%;
+    position: inherit;
+
+}

@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/main.css" >
 
     <title>Hello, world!</title>
   </head>
@@ -17,7 +18,7 @@
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="d-flex">
         <div class="col-sm-4">
           <p>
             <h3>¿Cómo funciona?</h3>
@@ -37,37 +38,70 @@
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <p>
+      <hr>
+      <div class="d-flex  flex-wrap">
+        <div class="card-hotel d-flex flex-column justify-content-between ">
+          <div>
             <h4>Hotel Caribean</h4>
             <p>Amplio hotel con vista a la Ciudad Amurallada de Cartagena</p>
-            <button type="button">Reservar</button>
-          </p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <p>
+        <div class="card-hotel d-flex flex-column justify-content-between ">
+          <div>
             <h4>Hotel Bairu</h4>
             <p>Hotel en la hermosa isla de Barú</p>
-            <button type="button">Reservar</button>
-          </p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <p>
+        <div class="card-hotel d-flex flex-column justify-content-between ">
+          <div>
             <h4>Hotel Intercontinental</h4>
             <p>Hotel en la ciudad de Medellín para enventos empresariales</p>
-            <button type="button">Reservar</button>
-          </p>
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <p>
+        <div class="card-hotel d-flex flex-column justify-content-between ">
+          <div>
             <h4>Hotel Decameron</h4>
-            <p>Hotel muy hogareño en el eje cafetero, cerca al parque del café</p>
-            <button type="button">Reservar</button>
-          </p>
+            <p>Hotel muy hogareño en el eje cafetero, cerca al parque del café</p>            
+          </div>
+          <div>
+            <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
+          </div>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="https://facebook.com" style="display: flex; justify-content: center;">Facebook</a>
+          <a href="https://instagram.com" style="display: flex; justify-content: center;">Instagram</a>
+          <a href="https://twitter.com" style="display: flex; justify-content: center;">Twitter</a>
+        </div>
+        <div class="col-sm-4">
+          <address>
+            <h4>Oficinas</h4>
+            <p>Medellín, Colombia</p>
+            <p>+57 3006961796</p>
+            contacto@guiahotel.com
+          </address>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-item-center">
+          <a href="https://facebook.com" style="display: flex; justify-content: center;">Nosotros</a>
+          <a href="https://instagram.com" style="display: flex; justify-content: center;">Terminos y condiciones</a>
+          <a href="https://twitter.com" style="display: flex; justify-content: center;">Contacto</a>
+        </div>
+      </div>
+
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
