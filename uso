@@ -1,0 +1,83 @@
+[33mcommit d13b3d1156657e0814b8ad27b0bbc29624777775[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Mon Oct 19 17:41:44 2020 -0500
+
+    utilizando pills
+
+[33mcommit 71e5f14f59f19bfa42fe544c6b4fecb858654590[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Mon Oct 19 17:35:57 2020 -0500
+
+    usando pestañas en seccion de precios
+
+[33mcommit 1a5693c184bf639b159962020231285f131edb6c[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Sat Oct 17 17:27:42 2020 -0500
+
+    nueva imagen
+
+[33mcommit 17a0cc96cc534d6430df3e0981ba0bdb87e452da[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Fri Oct 16 17:11:47 2020 -0500
+
+    uso de las cards
+
+[33mcommit 564857eaafdcb974ad38a678445562b67d95d0d9[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Tue Oct 13 14:47:02 2020 -0500
+
+    tabla de precios
+
+[33mcommit 3823c85ee3f1eabb8af711fffb08242fb386be4a[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Wed Oct 7 23:32:48 2020 -0500
+
+    utilizando agrupamiento en formularios
+
+[33mcommit 6f528bd4268f0d592e4147c3ddc43d05d6fb78ba[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Wed Oct 7 18:57:10 2020 -0500
+
+    usando open icons
+
+[33mcommit 6c2ab76bf30470d2d44de20a699cde29e5eca2c1[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Wed Oct 7 16:44:46 2020 -0500
+
+    agregamos navegavilidad, navbar y breadcrum
+
+[33mcommit b13e29e9e60e8337eead72f334a600fa68057d31[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Mon Sep 28 17:30:33 2020 -0500
+
+    se le agrego footer y estilos con flex
+
+[33mcommit 4149a80fcf4d3b58917737ec0c4fd3710104316c[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Mon Sep 28 16:35:20 2020 -0500
+
+    mejoras en el index
+
+[33mcommit 67a43cac467f025b82b86dd08447da79e10fb902[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Mon Sep 28 12:52:16 2020 -0500
+
+    utilizando las grillas de bootstrap, contenedores, filas, columnas, entre otros
+
+[33mcommit e04d2f3acc0db2bbe6971dff4677db01cf0dd8f5[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Fri Sep 25 21:34:49 2020 -0500
+
+    configurando bootstrap
+
+[33mcommit 3f3d2a89f36a18df979cc0372d9c567c280e2410[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Fri Sep 25 21:15:24 2020 -0500
+
+    creando el html
+
+[33mcommit 7e7e172f2f7ec4972c0fa44adeae049dd44c29cd[m
+Author: Jeroquendo <jeroquendo@gmail.com>
+Date:   Fri Sep 25 21:06:48 2020 -0500
+
+    package json sin los modulos

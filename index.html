@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/main.css" >
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 
-    <title>Hello, world!</title>
+    <title>Guía Hoteles</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -19,7 +19,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto"> 
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
           <li class="nav-item"><a class="nav-link" href="./precios.html">Precios</a></li>
@@ -28,7 +28,7 @@
         </ul>
       </div>
     </nav>
-    
+
     <div class="jumbotron">
       <h1 style="display: flex; justify-content: center; font: 2em sans-serif;">Los mejores hoteles del país</h1>
     </div>
@@ -39,20 +39,31 @@
           <li class="breadcrumb-item active" aria-current="page">Home</li>
         </ol>
       </nav>
-      <div class="d-flex">
+      <div class="row">
         <div class="col-sm-4">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funciona" aria-expanded="false" aria-controls="multiCollapse1">¿Cómo funciona?</button>
+        </div>
+        <div class="col-sm-4">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reserva"  aria-expanded="false" aria-controls="multiCollapse2">¿Dónde reservar?</button>
+        </div>
+        <div class="col-sm-4">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago"  aria-expanded="false" aria-controls="multiCollapse3">¿Cómo pagar?</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 collapse multi-collapse" id="funciona">
           <p>
             <h3>¿Cómo funciona?</h3>
             <p> Busca los hoteles de acuerdo a tus preferencias. </p>
           </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 collapse multi-collapse" id="reserva">
           <p>
             <h3>¿Dónde reservar?</h3>
-            <p>Elegie el hotel de tu preferencia, llena los datos y dale reservar.</p>
+            <p>Elige el hotel de tu preferencia, llena los datos y dale reservar.</p>
           </p>
         </div>
-        <div class="col-sm-4" >
+        <div class="col-sm-4 collapse multi-collapse" id="pago">
           <p>
             <h3>¿Cómo pagar?</h3>
             <p>Después de ingresar tus datos, dale a la opción de pagar.</p>
@@ -60,11 +71,40 @@
         </div>
       </div>
       <hr>
-      <img class="img-fluid" src="images/six-senses.jpg" alt="imagen responsive">
+
+      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/116132639.jpg" alt="Primer slide">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100" src="images/1448995_v6.webp" alt="Segundo slide">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100" src="images/79416436.jpg" alt="Tercer slide">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100" src="images/9d25a9848b745602d0d1e521561f75ff.jpg" alt="Cuarto slide">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100" src="images/intercontinental-medellin-4733365110-2x1.jpg" alt="Quinto slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+
+
       <div class="card-columns">
         <div class=" card card-hotel justify-content-between">
           <img class="card-img-top" src="images/116132639.jpg" alt="hotel caribean">
-          <h4 class="card-title" style="padding: 5px 5px 0px 5px;">Hotel Caribean</h4>
+          <h4 class="card-title" style="padding: 5px 5px 0px 5px;" data-toggle="popover" title="Novedades" data-content="Nuevas habitaciones">Hotel Caribean</h4>
           <div class="card-body">
             <h5 class="card-subtitle text-muted">Cartagena</h5>
             <p class="card-text">Amplio hotel con vista a la Ciudad Amurallada de Cartagena</p>
@@ -75,7 +115,8 @@
         </div>
         <div class="card card-hotel  justify-content-between ">
           <img class="card-img-top" src="images/1448995_v6.webp" alt="hotel Barú">
-          <h4 class="card-title" style="padding: 5px 5px 0px 5px;">Hotel Barú</h4>
+          <h4 class="card-title" style="padding: 5px 5px 0px 5px;"
+          data-toggle="popover" title="Descuentos" data-content="Aprovecha los descuentos de temporada">Hotel Barú</h4>
           <div class="card-body">
             <h5 class="card-subtitle text-muted">Isla Barú</h5>
             <p class="card-text">Hotel en la hermosa isla de Barú</p>
@@ -86,7 +127,8 @@
         </div>
         <div class="card card-hotel justify-content-between ">
           <img class="card-img-top" src="images/intercontinental-medellin-4733365110-2x1.jpg" alt="hotel Medellin">
-          <h4 class="card-title" style="padding: 5px 5px 0px 5px;">Hotel Intercontinental</h4>
+          <h4 class="card-title" style="padding: 5px 5px 0px 5px;"
+           data-toggle="popover" title="Novedades" data-content="Descuentos para grandes eventos">Hotel Intercontinental</h4>
           <div class="card-body">
             <h5 class="card-subtitle text-muted">Medellín</h5>
             <p class="card-text">Hotel en la ciudad de Medellín para enventos empresariales</p>
@@ -97,10 +139,11 @@
         </div>
         <div class="card card-hotel justify-content-between ">
           <img class="card-img-top" src="images/79416436.jpg" alt="hotel risaralda">
-          <h4 class="card-title" style="padding: 5px 5px 0px 5px;">Hotel Decameron</h4>
+          <h4 class="card-title" style="padding: 5px 5px 0px 5px;"
+          data-toggle="popover" title="Novedades" data-content="Descuentos para entrar al parque del café">Hotel Decameron</h4>
           <div class="card-body">
             <h5 class="card-subtitle text-muted">Risaralda</h5>
-            <p class="card-text">Hotel muy hogareño en el eje cafetero, cerca al parque del café</p>            
+            <p class="card-text">Hotel muy hogareño en el eje cafetero, cerca al parque del café</p>
           </div>
           <div>
             <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
@@ -108,15 +151,54 @@
         </div>
         <div class="card card-hotel justify-content-between ">
           <img class="card-img-top" src="images/9d25a9848b745602d0d1e521561f75ff.jpg" alt="hotel risaralda">
-          <h4 class="card-title" style="padding: 5px 5px 0px 5px;">Hotel Faranda</h4>
+          <h4 class="card-title" style="padding: 5px 5px 0px 5px;"
+          data-toggle="popover" title="Novedades" data-content="Te incluimos guía turistico">Hotel Faranda</h4>
           <div class="card-body">
             <h5 class="card-subtitle text-muted">Cali</h5>
-            <p class="card-text">Hotel en el norte de Cali</p>            
+            <p class="card-text">Hotel en el norte de Cali</p>
           </div>
           <div>
             <button type="button" class="btn btn-primary btn-reserva">Reservar</button>
           </div>
         </div>
+      </div>
+
+      <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Contacto con el hotel</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Nombre: </label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Apellido: </label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Email: </label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>Para enterarte de nuevas ofertas dejanos tu información</p>
+        <button type="button" class="btn btn-outline-success" style="
+        margin-bottom: 10px;" data-toggle="modal" data-target="#contacto">Registarse</button>
       </div>
     </div>
 
@@ -147,6 +229,16 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js" ></script>
-    <script src="node_modules/popper.js/dist/popper.min.js" ></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
+    <script>
+      $(function(){
+        $("[data-toggle='tooltip']").tooltip();
+        $("[data-toggle='popover']").popover();
+        $('.carousel').carousel({
+          interval: 1500
+        });
+
+      });
+    </script>
   </body>
