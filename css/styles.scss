@@ -1,0 +1,46 @@
+$yellow: #ccca3a;
+$red: #d60c0c;
+$blue: #1a1ac9;
+
+@mixin margenes($top, $bottom, $topP, $bottomP, $rigthP, $leftP) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+  padding-top: $topP;
+  padding-bottom: $bottomP;
+  padding-left: $leftP;
+  padding-right: $rigthP;
+}
+
+
+
+.jumbotron{
+  color: $yellow;
+  background-image: url("/images/385509-mejores-hoteles-mundo-gili-lankanfushi-maldives-playa.jpg");
+  background-size: cover;
+
+}
+.button2{
+  background-color: $yellow;
+  color:$red;
+}
+
+footer{
+  background-color: $red;
+  color: $blue;
+}
+
+.card-hotel{
+  flex: 1 150px;
+
+  @include margenes(0px,0px ,5px ,5px,5px,5px);
+}
+
+.btn-reserva{
+  justify-content: space-between;
+  width: 100%;
+  position: inherit;
+  border-radius: 10px;
+}
+.footer-addres-icon{
+  padding-right: 5px;
+}
